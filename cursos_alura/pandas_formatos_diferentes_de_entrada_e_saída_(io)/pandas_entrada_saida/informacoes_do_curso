@@ -1,0 +1,21 @@
+Informações do Curso.
+Link do curso:  https://cursos.alura.com.br/course/pandas-io
+Texto de resumo do curso produzido pelo professor responsável:
+
+Começamos o projeto utilizando o Pandas para criar os nomes de alunos e alunas da nossa escola a partir de um arquivo JSON
+que conseguimos em uma API do IBGE. Prosseguindo, manipulamos esses dados e criamos um ID para cada um dos alunos nesse 
+conjunto.
+Novamente com o auxílio do Pandas, lemos uma tabela provinda de uma página HTML para criarmos uma lista de cursos, que também
+manipulamos e alteramos para que nos servisse melhor.
+Com o Numpy, matriculamos os alunos e alunas do conjunto em diferentes cursos, atribuímos quantidades de matrículas e plotamos
+um gráfico para visualizarmos a distribuição que foi feita, sempre tentando mantê-la próxima da realidade - muitos alunos fazem
+poucos cursos e poucos alunos fazem muitos cursos.
+Continuando nossas manipulações, cruzamos as tabelas para conferirmos quantas matrículas cada aluno possuía e criamos uma tabela
+auxiliar mostrando a quantidade de alunos matriculados em cada curso.
+Partimos então para a exportação dos nossos dados, aprendendo as saídas nos formatos mais comuns do meio, como JSON, CSV e HTML. 
+Prosseguindo, aprendemos a utilizar o Pandas para ler um banco de dados da biblioteca SQLAlchemy, que nos auxiliou a criar uma 
+base de dados local do tipo SQLite.
+Ainda por meio do Pandas, conseguimos fazer consultas (queries) e incluir informações na tabela criada nesse banco de dados. 
+Explorando um cenário no qual deveríamos passar para a portaria da escola os nomes dos alunos e alunas que fariam determinado 
+curso, utilizamos as ferramentas aprendidas para filtrarmos informações e unirmos tabelas, gerando um dataframe que exportamos 
+no formato Excel. Concluindo, aprendemos também a ler arquivos neste formato.
