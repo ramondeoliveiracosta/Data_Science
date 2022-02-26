@@ -1,0 +1,28 @@
+Informações do Curso.
+Link do curso:  https://cursos.alura.com.br/course/data-visualization-com-seaborn
+Texto de resumo do curso produzido pelo professor responsável:
+
+Recapitulando o que foi visto durante as aulas, começamos importando uma base de dados utilizando o Pandas,
+a qual é oferecida pela biblioteca do Seaborn. Algumas modificações foram feitas para que a didática do 
+curso fosse mais clara.
+Tivemos um momento de reflexão para vermos se era importante ou não fazer a tradução dos campos por questões
+didáticas. Chegamos à conclusão de que seria relevante e traduzimos os campos e respostas do inglês para o 
+português.
+Em seguida, importamos o Seaborn e começamos a realizar nossas análises plotando gráficos. Analisamos o valor
+da conta em relação à gorjeta, vimos que o segundo aumenta conforme o crescimento do primeiro, mas não 
+acontecia de forma proporcional.
+Geramos os gráficos estatísticos necessários para a conclusão, utilizamos describe() e outras ferramentas. Também
+geramos gráficos categóricos com catplot().
+Em outras análises, vimos a questão da sobremesa em relação com as gorjetas com descrições estatísticas de cada
+um dos grupos que pediram ou não este item.
+Utilizamos um cálculo em testes de hipóteses para analisarmos se a população se comporta da mesma forma ou não 
+que as amostras, utilizando ranksums().
+Analisamos a influência dos dias da semana em nossos dados de amostra, usando outras formas de plots diferentes,
+separando-os também para nosso estudo. Traçamos uma regressão linear em cada um, tiramos as médias dos valores e
+utilizamos groupby() para deixar nosso relatório visualmente mais fácil de ser lido.
+Vimos a frequência de pessoas em cada dia da semana, e fizemos testes de hipóteses para saber se a distribuição 
+dos valores das contas era igual ou diferente no sábado e no domingo, pois eram os dias com maior clientela.
+Ao final, analisamos a hora do dia jantar ou almoço, avaliando se influenciavam ou não nos valores de conta e 
+porcentagem. Plotamos alguns gráficos diferentes como o violinplot() e boxplot().
+Inclusive usamos um histograma com distplot() com formas diferentes, realizando dois últimos testes de hipóteses
+para analisar se a distribuição dos valores das contas e porcentagens eram diferentes ou iguais entre os grupos.
