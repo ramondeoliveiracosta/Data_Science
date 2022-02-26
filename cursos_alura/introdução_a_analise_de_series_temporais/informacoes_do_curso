@@ -1,0 +1,29 @@
+Informações do Curso.
+Link do curso:  https://cursos.alura.com.br/course/data-science-series-temporais
+Texto de resumo do curso produzido pelo professor responsável:
+
+Sempre que pegávamos uma base de dados iniciando nossos estudos de Time Series, fazíamos uma análise para conhecer quais dados 
+ela realmente trazia, seu tamanho, e se possuía dados nulos.
+Quando fizemos nosso primeiro gráfico, as labels e o título mal podiam ser lidos. Aprendemos a como corrigir essas questões, 
+pois sṕ conseguiremos transmitir informações valiosas através dos gráficos se eles forem apresentados de forma clara. Então, 
+acrescentamos o título.
+Na sequência aprendemos que é importante observar as tendências nas Time Series. No caso do gráfico de vendas da Alucar, a 
+tendência era de aumento.
+Também aprendemos uma forma de decompor nossos gráficos e comparar depois o aumento e a aceleração das nossas vendas mês a mês. 
+Criamos uma função ṕara visualizar os gráficos de forma mais clara, e entendemos a correlação dos valores, como ela será ideal 
+positiva ou negativamente quando for próxima de 1 ou -1.
+Por meio da decomposição, plotamos gráficos e os comparamos, o que nos permitiu ver, por exemplo, que o gráfico de aumento 
+representa que num determinado momento o crescimento das vendas se estagna, uma informação que o gráfico de vendas somente não 
+trazia.
+Aprendemos o que é sazonalidade, quando temos períodos de tempo fixos em que há um movimento parecido. Então, sempre nos meses 4 
+e 6 a empresa Chocolura vendia muito em relação a outras datas, e fizemos uma análise das motivações para essa situação. Logo, a 
+sazonalidade pode ser investigada.
+Fizemos uma investigação da sazonalidade analisando também a diferença entre vendas da Chocolura durante os dias da semana e 
+finais de semana, e descobrimos que as quedas de vendas ocorrem sempre nos fins de semana.
+Utilizamos técnicas do Pandas para saber exatamente qual dia da semana seria relevante para nossa análise. Aplicamos a técnica 
+de correlação nesse período, e existia uma correlação muito forte entre essas datas.,
+Aprendemos técnicas para normalizar o valor das vendas, e quando plotamos os gráficos, visualizamos eles bem diferentes, com 
+menos ruídos, devido à normalização efetuada por quantidade de dias de finais de semana.
+Vimos formas de visualizar a observação, a tendência, a sazonalidade e o ruído das séries temporais com o Statsmodel, bem como 
+uma forma mais agradável de apresentá-lo.
+Para finalizar, vimos mais uma forma de minizar ruídos em Time Series, as Médias Móveis. 
