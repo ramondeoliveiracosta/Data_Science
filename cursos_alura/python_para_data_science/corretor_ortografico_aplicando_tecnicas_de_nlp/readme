@@ -1,0 +1,31 @@
+Informações do Curso.
+Link do curso:  https://cursos.alura.com.br/course/nlp-corretor-ortografico
+Texto de resumo do curso produzido pelo professor responsável:
+
+Começamos a discutir um pouco sobre o que é o Processamento de Linguagem Natural, e como como o ser humano e a máquina conseguem criar uma comunicação entre si, e percebemos não é feita de maneira direta.
+
+O NLP é o intermediário, e possui diversas aplicações. Entre elas, temos o assistente pessoal, tradutor, os buscadores, e o corretor ortográfico, que é justamente o que criamos nesse curso.
+
+Como exemplo, temos uma palavra digitada de maneira equivocada, geramos as possíveis palavras corretas, e então inferimos quais daquelas possíveis candidatas era justamente a correta.
+
+Para as gerarmos, discutimos alguns algoritmos; o insere_letras(), onde nós inseríamos letras na palavra digitada equivocadamente, o deletando_caracteres(), o troca_letra() e o inverte_letra(), que é quando digitamos sem querer uma letra na frente da outra.
+
+Esses algoritmos eram os responsáveis por gerar as palavras, mas não por realizar a inferência da palavra correta. Para isso, precisamos de uma base de dados, e neste caso foram os artigos do Blog da Alura compilados em artigos.txt.
+
+Esse nosso arquivo é o nosso corpus textual com um número muito grande de caracteres, mas descobrimos também o número de palavras.
+
+Separamos a string em pequenos tokens. Para isso, nós utilizamos a biblioteca Python específica para processamento de linguagem natural chamada nltk.
+
+Depois, separamos dos tokens apenas os que eram palavras, e aí contamos o número de palavras que havia no nosso dataset., chegando a quase 400 mil, o que é um número bem interessante para o nosso treinamento.
+
+Saber só o número de palavras não era suficiente, então contamos também os tipos de palavras. Após isso, iniciamos a construção do nosso algoritmo.
+
+Começamos por insere_letras() e testamos esse nosso corretor apenas com esta função, e descobrimos que o resultado não era muito bom, pois corrigia apenas 1% dos dados, um número bem abaixo do que precisamos.
+
+Implementamos os outros algoritmos e atingimos um resultado de quase 77%, já um número bem mais interessante.
+
+Após atingirmos esse resultado, tentamos melhorar ainda mais o nosso corretor e criamos o gerador_turbinado(), o qual foi capaz de corrigir palavras como o “lóiigica” aqui.
+
+Chegamos à conclusão que esse gerador turbinado não era muito bom na realidade, e o nosso novo corretor foi descartado, chegando à conclusão que o melhor resultado que nós atingimos foi realmente os quase 77% do primeiro corretor.
+
+Portanto, ficamos com o antigo.
