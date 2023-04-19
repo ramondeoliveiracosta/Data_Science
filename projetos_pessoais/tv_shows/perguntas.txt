@@ -1,0 +1,6 @@
+Quais os filmes mais populares dos anos.
+Qual a Lingua mais presente no conjunto de dados.
+A quantidade de filmes por ano
+A quantidade de filmes por lingua
+A quantidade de filmes por ano e lingua
+Comparar a popularidade das linguas dos filmes pelo tempo.
